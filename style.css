@@ -1,0 +1,81 @@
+@font-face {
+   font-family: 'Inter-VariableFont_slnt,wght';
+   src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 8%);
+}
+.box{
+    display: block;
+    width: 300px;
+    font-family: 'Inter-VariableFont_slnt,wght',sans-serif;
+    margin: 100px auto 50px;
+    padding: 40px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 20px;
+}
+img{
+  display: block;
+  width: 100px;
+  margin:0 auto;
+  border-radius: 100px;
+  margin-bottom: 40px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+h3{
+    margin-top:-14px ;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 13px;
+}
+p{
+    font-weight: lighter;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+button{
+    color: hsl(0, 0%, 100%);
+    display: block;
+    background-color:hsl(0, 0%, 20%) ;
+    border: none;
+    font-weight: bold;
+    width: 250px;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+button:hover{
+    cursor: pointer ;
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+@media only screen and (max-width: 600px){
+    
+     
+    .box{
+        width: 70%;
+        display: block;
+        margin: 50px auto 50px;
+        
+    }
+    button{
+        text-align: center;
+        width: 100%;
+    }
+    h3{
+        font-size: 13px;
+    }
+}
